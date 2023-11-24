@@ -1,7 +1,7 @@
 package org.example.vehicles;
 
 public class Car extends Vehicle {
-    private int numberOfDoors;
+    private final int numberOfDoors;
 
     public Car(String brand, int speed, int numberOfDoors) {
         super(brand, speed);

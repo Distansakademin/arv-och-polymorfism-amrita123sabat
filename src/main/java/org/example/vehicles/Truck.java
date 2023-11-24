@@ -1,7 +1,7 @@
 package org.example.vehicles;
 
 public class Truck extends Vehicle {
-    private int loadCapacity;
+    private final int loadCapacity;
 
     public Truck(String brand, int speed, int loadCapacity) {
         super(brand, speed);
@@ -11,9 +11,9 @@ public class Truck extends Vehicle {
     @Override
     public String displayFeatures() {
         // Override to include uniqueness characteristics of trucks
-        String truckDisplay =
-                "My " + brand + " is a truck traveling at " + speed +
-                        " km/h with a load capacity of " + loadCapacity + " tons";
+        String truckDisplay;
+        truckDisplay = "My " + brand + " is a truck traveling at " + speed +
+                " km/h with a load capacity of " + loadCapacity + " tons";
 
         return truckDisplay;
     }

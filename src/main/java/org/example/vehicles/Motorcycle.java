@@ -1,7 +1,7 @@
 package org.example.vehicles;
 
 public class Motorcycle extends Vehicle {
-    private boolean hasSideCar;
+    private final boolean hasSideCar;
 
     public Motorcycle(String brand, int speed, boolean hasSideCar) {
         super(brand, speed);
