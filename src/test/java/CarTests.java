@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.Test;
 import org.example.vehicles.Car;
-import org.example.vehicles.Vehicle;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CarTests {
 

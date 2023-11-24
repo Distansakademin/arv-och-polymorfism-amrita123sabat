@@ -1,12 +1,8 @@
 import org.junit.jupiter.api.Test;
 import org.example.vehicles.Motorcycle;
-import org.example.vehicles.Vehicle;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MotorcycleTests {
-
-
     @Test
     public void testMotorcycleInfoWithoutSideCar() {
         Motorcycle motorcycle = new Motorcycle("Honda", 100, false);
@@ -27,7 +23,7 @@ public class MotorcycleTests {
     public void testStart() {
         Motorcycle motorcycle = new Motorcycle("Suzuki", 80, false);
         String expected = "Motorcycle starting...";
-        String actual = motorcycle.startAndGetMessage().trim();  
+        String actual = motorcycle.startAndGetMessage().trim();
 
         System.out.println("Expected: '" + expected + "'");
         System.out.println("Actual  : '" + actual + "'");
@@ -35,5 +31,4 @@ public class MotorcycleTests {
         assertEquals(expected, actual);
         System.out.println("Test Start passed");
     }
-
 }

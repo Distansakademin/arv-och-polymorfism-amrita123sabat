@@ -1,6 +1,4 @@
 package org.example.vehicles;
-import org.example.vehicles.Vehicle;
-
 
 public class Car extends Vehicle {
     private int numberOfDoors;

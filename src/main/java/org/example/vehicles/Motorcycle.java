@@ -1,5 +1,4 @@
 package org.example.vehicles;
-import org.example.vehicles.Vehicle;
 
 public class Motorcycle extends Vehicle {
     private boolean hasSideCar;
